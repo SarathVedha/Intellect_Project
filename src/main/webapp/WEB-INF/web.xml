@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>SignInServlet</servlet-name>
+		<display-name>SignInServlet</display-name>
+		<description></description>
+		<servlet-class>org.intellect.servlet.SignInServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SignUpServlet</servlet-name>
+		<display-name>SignUpServlet</display-name>
+		<description></description>
+		<servlet-class>org.intellect.servlet.SignUpServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<display-name>LogoutServlet</display-name>
+		<description></description>
+		<servlet-class>org.intellect.servlet.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignInServlet</servlet-name>
+		<url-pattern>/SignInServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SignUpServlet</servlet-name>
+		<url-pattern>/SignUpServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
